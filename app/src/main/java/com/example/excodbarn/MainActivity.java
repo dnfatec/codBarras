@@ -26,7 +26,7 @@ TextView txCodigo;
             public void onClick(View v) {
                 Intent intent = new Intent("com.google.zxing.client.android.SCAN");
                 startActivityForResult(intent,0);
-                Toast.makeText(getApplicationContext(), "Teste estou com fome !!!", Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Teste estou com fome !!!, mas preciso testar de novo !!!", Toast.LENGTH_LONG).show();
 
 
             }
