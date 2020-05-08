@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 Button btLer;
@@ -25,6 +26,7 @@ TextView txCodigo;
             public void onClick(View v) {
                 Intent intent = new Intent("com.google.zxing.client.android.SCAN");
                 startActivityForResult(intent,0);
+                Toast.makeText(getApplicationContext(), "teste", Toast.LENGTH_LONG).show();
             }
         });
     }
