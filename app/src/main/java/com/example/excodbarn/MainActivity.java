@@ -34,7 +34,7 @@ TextView txCodigo;
                 txCodigo.setText(intent.getStringExtra("SCAN_RESULT"));
         }
     }
-/*testando 123*/
+/*testando 123 testando novamente neste pc */
 
 
 
